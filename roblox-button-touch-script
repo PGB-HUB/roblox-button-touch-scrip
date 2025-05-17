@@ -1,0 +1,6 @@
+-- Simulate touch on the button without moving player
+local button = workspace:FindFirstChild("Gudock")
+if button then
+    firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, button, 0)
+    firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, button, 1)
+end
